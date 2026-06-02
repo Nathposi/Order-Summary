@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --darkblue: hsl(245, 75%, 52%);
+  --darkblue2: hsl(245, 100%, 90%);
+  --body: hsl(225, 100%, 94%);
+  --h1: hsl(223, 47%, 23%);
+  --cardbody: hsl(225, 100%, 98%);
+  --word: hsl(224, 23%, 55%);
+}
+
+body {
+  background-color: #ebebf9;
+}
+
+.entire {
+  font-family: helvetica;
+  width: 100%;
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: white;
+  box-shadow: 4px 4px 5px;
+}
+
+h1 {
+  font-weight: 800;
+  text-align: center;
+  margin: 20px;
+}
+
+p {
+  text-align: center;
+}
+
+.Order {
+  display: flex;
+  gap: 1rem;
+  margin: 20px auto;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  border: 3px solid black;
+  border-radius: 1rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0px;
+}
+
+.radio {
+  width: 90%;
+  border: 2px solid gainsboro;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+}
+
+.submit {
+  margin-top: 2rem;
+  background-color: var(--darkblue);
+  width: 90%;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  color: var(--cardbody);
+}
+
+.foot {
+  text-align: center;
+}

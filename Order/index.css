@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --darkblue: hsl(245, 75%, 52%);
+  --darkblue2: hsl(245, 81%, 80%);
+  --body: hsl(225, 100%, 94%);
+  --h1: hsl(223, 47%, 23%);
+  --cardbody: hsl(225, 100%, 98%);
+  --word: hsl(224, 23%, 55%);
+}
+
+@font-face {
+  font-family: Red_Hat_Display;
+  src: url("../Red_Hat_Display/RedHatDisplay-Regular.ttf");
+}
+
+body {
+  background-color: var(--body);
+  font-family: Red_Hat_Display;
+  font-size: 16px;
+}
+
+.whole {
+  margin: 60px auto;
+  width: 100%;
+  max-width: 300px;
+  background-color: var(--cardbody);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image img {
+  width: 300px;
+  height: auto;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  margin: -1rem -1rem 0 -1rem;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.about p {
+  line-height: 2rem;
+}
+
+.plan {
+  display: flex;
+  background-color: var(--body);
+  border-radius: 2rem;
+  gap: 1rem;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.options {
+  border: none;
+  background-color: var(--body);
+  font-size: 16px;
+  font-family: Red_Hat_Display;
+}
+
+select {
+  font-weight: bolder;
+}
+
+.light {
+  color: var(--word);
+}
+
+.change a {
+  color: var(--darkblue);
+  font-weight: bold;
+}
+
+.pay {
+  display: flex;
+  flex-direction: column;
+}
+
+.yes {
+  margin-top: 15px;
+}
+
+.pay a {
+  outline: none;
+  border: none;
+  margin: 6px;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  display: block;
+  text-align: center;
+}
+
+.pay a {
+  text-decoration: none;
+}
+
+.yes a {
+  color: var(--cardbody);
+}
+
+.no a {
+  color: var(--word);
+}
+
+.yes a {
+  background-color: var(--darkblue);
+  font-weight: bold;
+}
+
+.no a {
+  background-color: var(--cardbody);
+  border: solid var(--darkblue2) 1px;
+}
+
+/* // document.querySelector(".yes");
+// const play = document.querySelector(".yes button a");
+// console.log(play);
+
+// play.textContent = "No Cash braah";
+// play.style.color = "red";
+
+// const focus = document.querySelector(".yes button");
+// console.log(focus);
+// focus.style.backgroundColor = "black";
+
+// const p = document.createElement("p");
+// p.textContent = "H";
+
+// const whole = document.querySelector(".about");
+// whole.appendChild(p);
+
+// document.querySelector(".plan");
+// const plan = document.querySelector(".plan");
+// console.log(plan);
+
+// plan.style.backgroundColor = "yellow";
+
+// const change = document.querySelector(".plan .change a");
+// console.log(change);
+// change.textContent = "Switch";
+
+// const hey = document.createElement("h2");
+// hey.textContent = "Whats";
+
+// const para = document.querySelector("p");
+// para.appendChild(hey); */
