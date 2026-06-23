@@ -15,7 +15,7 @@
 
 @font-face {
   font-family: Red_Hat_Display;
-  src: url("../Red_Hat_Display/RedHatDisplay-Regular.ttf");
+  src: url("Red_Hat_Display/RedHatDisplay-Regular.ttf");
 }
 
 body {
@@ -126,36 +126,6 @@ select {
   background-color: var(--cardbody);
   border: solid var(--darkblue2) 1px;
 }
-
-/* // document.querySelector(".yes");
-// const play = document.querySelector(".yes button a");
-// console.log(play);
-
-// play.textContent = "No Cash braah";
-// play.style.color = "red";
-
-// const focus = document.querySelector(".yes button");
-// console.log(focus);
-// focus.style.backgroundColor = "black";
-
-// const p = document.createElement("p");
-// p.textContent = "H";
-
-// const whole = document.querySelector(".about");
-// whole.appendChild(p);
-
-// document.querySelector(".plan");
-// const plan = document.querySelector(".plan");
-// console.log(plan);
-
-// plan.style.backgroundColor = "yellow";
-
-// const change = document.querySelector(".plan .change a");
-// console.log(change);
-// change.textContent = "Switch";
-
-// const hey = document.createElement("h2");
-// hey.textContent = "Whats";
 
 // const para = document.querySelector("p");
 // para.appendChild(hey); */
